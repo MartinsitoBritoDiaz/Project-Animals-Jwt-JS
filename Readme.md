@@ -8,8 +8,8 @@ Tools that I used to make it: HTML, CSS, NodeJS, Express, Mongoose, Json Web Tok
 
 If you want to visit this project on live site, you should use this account that it's already created. ❗
 
-user: prueba@gmail.com
-password: 12345
+user: *****
+password: ****
 
 ### Main view 🐶
 
@@ -26,7 +26,10 @@ password: 12345
 
 
 ### Link 
-<a href="">Live Site</a>
+
+##Unavailable
+<a href="" style="color: red">Live Site</a>  
+
 
 
 **Thanks for checking out this project** 🚀
