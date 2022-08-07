@@ -1,0 +1,86 @@
+html{ box-sizing: border-box;}
+
+*, *::before, *::after{ box-sizing: inherit;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #007fbb;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.card{
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+
+    -webkit-box-shadow: 10px 10px 44px 4px rgba(33,55,61,1);
+    -moz-box-shadow: 10px 10px 44px 4px rgba(33,55,61,1);
+    box-shadow: 10px 10px 44px 4px rgba(33,55,61,1);
+}
+
+.name, .type{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.name input, .type input{
+    border-radius: .3rem;
+    border: 1px solid black;
+    padding: 2px;
+    margin-left: 1rem;
+}
+
+form .button{    
+    margin-bottom: 1rem;
+}
+
+.button{
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color:dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    margin-top: 1em 0 1em 0;
+    padding-left: 0px;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    margin: .5rem;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.error{
+    color: red;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+#register{
+    font-size: .8rem;
+    background-color: #035682;
+    text-decoration: none;
+}
