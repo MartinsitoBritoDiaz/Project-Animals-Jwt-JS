@@ -1,12 +1,15 @@
 ## Welcome! 👋
 
-This project is to practice with HTML, CSS & Java Script. 💻
+This project is an exercise for improving my skills on HTML, CSS & Java Script. 💻
 
 It's my second time using nodeJs for making a backend in a web site, before I started this project I thought that I won't be able to make bcs I didn't know how nodeJs works, but with a Java Script course on Udemy I finished it, and more important I understood how it works.
 
 Tools that I used to make it: HTML, CSS, NodeJS, Express, Mongoose, Json Web Token 🔨
 
 If you want to visit this project on live site, you should use this account that it's already created. ❗
+
+user: prueba@gmail.com
+password: 12345
 
 ### Main view 🐶
 
