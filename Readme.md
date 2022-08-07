@@ -2,7 +2,7 @@
 
 This project is an exercise for improving my skills on HTML, CSS & Java Script. 💻
 
-It's my second time using nodeJs for making a backend in a web site, before I started this project I thought that I won't be able to make bcs I didn't know how nodeJs works, but with a Java Script course on Udemy I finished it, and more important I understood how it works.
+It's my second time using nodeJs for making a backend in a web site, before I started this project I thought that I won't be able to make it because I didn't know how nodeJs works, but with a Java Script course on Udemy I finished it, and more important I understood how it works.
 
 Tools that I used to make it: HTML, CSS, NodeJS, Express, Mongoose, Json Web Token 🔨
 
