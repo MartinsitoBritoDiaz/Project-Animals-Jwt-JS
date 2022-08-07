@@ -1,4 +1,4 @@
-## Welcome! 👋
+# <p style="text-align: center" >Welcome! 👋</p>
 
 This project is an exercise for improving my skills on HTML, CSS & Java Script. 💻
 
@@ -10,6 +10,8 @@ If you want to visit this project on live site, you should use this account that
 
 user: *****
 password: ****
+
+<div style="text-align: center;">
 
 ### Main view 🐶
 
@@ -24,11 +26,11 @@ password: ****
 
 ![imagen](https://user-images.githubusercontent.com/54644026/183313713-92c96568-20f9-4cec-9351-f2f3526ccda8.png)
 
+</div>
 
 ### Link 
 
-## Unavailable
-<a href="" style="color: red">Live Site</a>  
+## <a href="">Live Site | Unavailable</a>  
 
 
 
