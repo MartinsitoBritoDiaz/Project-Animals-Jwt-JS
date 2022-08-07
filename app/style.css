@@ -53,6 +53,11 @@ form .button{
     font-weight: bold;
 }
 
+.bg-red{
+    margin-left: .4rem;
+    background-color: #a51403;
+}
+
 .button:hover{
     cursor: pointer;
 }
@@ -79,8 +84,30 @@ ul li{
     margin: 1rem;
 }
 
-#register{
+#register, #login{
     font-size: .8rem;
     background-color: #035682;
+    text-decoration: none;
+}
+
+.footer{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: var(--Light-gray);
+}
+
+.footer a:visited{
+    color: white;
+    font-weight: 700;
     text-decoration: none;
 }

@@ -1,11 +1,12 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const mongooseConnectionString = require('./mongoose.auth')
 const app = express()
 const Animal = require('./animal.controller')
 const { Auth, isAuthenticated } = require('./auth.controller')
 const port = 3000
 
-mongoose.connect('mongodb+srv://martinsitobd:RwbBI8ZIdZFB12jy@cluster0.4qe63.mongodb.net/authAnimals?retryWrites=true&w=majority')
+mongoose.connect(mongooseConnectionString)
 
 app.use(express.json())
 
