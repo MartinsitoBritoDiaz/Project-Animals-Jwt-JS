@@ -1,12 +1,13 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const mongooseConnectionString = require('./mongoose.auth')
+const dotenv = require('dotenv')
 const app = express()
 const Animal = require('./animal.controller')
 const { Auth, isAuthenticated } = require('./auth.controller')
-const port = 3000
+const port = process.env.PORT || 3000
 
-mongoose.connect(mongooseConnectionString)
+dotenv.config()
+mongoose.connect(process.env.connectionString)
 
 app.use(express.json())
 
